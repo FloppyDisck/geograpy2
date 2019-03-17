@@ -4,7 +4,7 @@ import unittest
 import sys
 import os.path as path 
 sys.path.insert(0, path.abspath(path.join(__file__ ,"../..")))
-from geograpy2.extraction import Extractor
+from geograpy3.extraction import Extractor
 
 class TestExtractor(unittest.TestCase):
     def testBBCNews(self):

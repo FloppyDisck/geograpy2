@@ -11,7 +11,7 @@ Grab the package using `pip` (this will take a few minutes)
 
     pip install geograpy3
 
-Geograpy2 uses [NLTK](http://www.nltk.org/) for entity recognition, so you'll also need 
+geograpy3 uses [NLTK](http://www.nltk.org/) for entity recognition, so you'll also need 
 to download the models we're using. Fortunately there's a command that'll take 
 care of this for you. 
 
@@ -23,16 +23,16 @@ Import the module, give some text or a URL, and presto.
 
     import geograpy3
     url = 'http://www.bbc.com/news/world-europe-26919928'
-    places = geograpy2.get_place_context(url=url)
+    places = geograpy3.get_place_context(url=url)
 
 
 ## Credits
 
-Geograpy2 is a fork of [geograpy](https://github.com/ushahidi/geograpy) and inherits
+geograpy3 is a fork of [geograpy](https://github.com/ushahidi/geograpy) and inherits
 most of it, but solves several problems (such as support for utf8, places names 
 with multiple words, confusion over homonyms etc).
 
-Geograpy2 uses the following excellent libraries:
+geograpy3 uses the following excellent libraries:
 
 * [NLTK](http://www.nltk.org/) for entity recognition
 * [newspaper](https://github.com/codelucas/newspaper) for text extraction from HTML

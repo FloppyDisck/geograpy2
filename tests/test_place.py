@@ -4,7 +4,7 @@ import unittest
 import sys
 import os.path as path 
 sys.path.insert(0, path.abspath(path.join(__file__ ,"../..")))
-from geograpy2.place import Place
+from geograpy3.place import Place
 
 class TestPlace(unittest.TestCase):
     def test_basic(self):

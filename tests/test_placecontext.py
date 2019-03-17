@@ -4,7 +4,7 @@ import unittest
 import sys
 import os.path as path 
 sys.path.insert(0, path.abspath(path.join(__file__ ,"../..")))
-from geograpy2.placecontext import PlaceContext 
+from geograpy3.placecontext import PlaceContext 
 
 class TestPlaceContext(unittest.TestCase):
     
