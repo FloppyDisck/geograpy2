@@ -13,3 +13,4 @@ geograpy3.egg-info/not-zip-safe
 geograpy3.egg-info/requires.txt
 geograpy3.egg-info/top_level.txt
 geograpy3/bin/geograpy3-nltk
+geograpy3/bin/geograpy3-nltk
