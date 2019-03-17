@@ -7,9 +7,11 @@ example distinguishing between a country, region or city.
 
 ## Install & Setup
 
-Grab the package using `pip` (this will take a few minutes)
+First download the [wheel file](https://github.com/FloppyDisck/geograpy3/tree/master/dist)
 
-    pip install geograpy3
+Install the package using `pip`
+
+    pip install file_name_here
 
 geograpy3 uses [NLTK](http://www.nltk.org/) for entity recognition, so you'll also need 
 to download the models we're using. Fortunately there's a command that'll take 
