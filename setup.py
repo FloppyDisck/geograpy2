@@ -24,8 +24,8 @@ setup(name='geograpy3',
             'jellyfish',
             'pycountry'
       ],
-      scripts=['geograpy/bin/geograpy-nltk'],
+      scripts=['geograpy3/bin/geograpy3-nltk'],
       package_data = {
-            'geograpy': ['data/*.csv'],
+            'geograpy3': ['data/*.csv'],
       },
       zip_safe=False)

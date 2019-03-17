@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+geograpy3/__init__.py
+geograpy3/extraction.py
+geograpy3/place.py
+geograpy3/placecontext.py
+geograpy3.egg-info/PKG-INFO
+geograpy3.egg-info/SOURCES.txt
+geograpy3.egg-info/dependency_links.txt
+geograpy3.egg-info/not-zip-safe
+geograpy3.egg-info/requires.txt
+geograpy3.egg-info/top_level.txt
+geograpy3/bin/geograpy3-nltk
