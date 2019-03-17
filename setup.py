@@ -7,7 +7,7 @@ try:
 except (IOError, ImportError):
    long_description = open('README.md').read()
 
-setup(name='geograpy2.3',
+setup(name='geograpy3',
       version='0.1.0',
       description='Extract countries, regions and cities from a URL or text',
       long_description=long_description,
@@ -16,11 +16,11 @@ setup(name='geograpy2.3',
       author='FloppyDisck',
       author_email='guysebastiangarcia@gmail.com',
       license='MIT',
-      packages=['geograpy2'],
+      packages=['geograpy3'],
       install_requires=[
             'numpy',
             'nltk',
-            'newspaper3',
+            'newspaper',
             'jellyfish',
             'pycountry'
       ],
