@@ -7,20 +7,20 @@ try:
 except (IOError, ImportError):
    long_description = open('README.md').read()
 
-setup(name='geograpy2',
+setup(name='geograpy2.3',
       version='0.1.0',
       description='Extract countries, regions and cities from a URL or text',
       long_description=long_description,
-      url='https://github.com/Corollarium/geograpy2',
-      download_url ='https://github.com/Corollarium/geograpy2',
-      author='Corollarium',
-      author_email='email@corollarium.com',
+      url='https://github.com/FloppyDisck/geograpy2',
+      download_url ='https://github.com/FloppyDisck/geograpy2',
+      author='FloppyDisck',
+      author_email='guysebastiangarcia@gmail.com',
       license='MIT',
       packages=['geograpy2'],
       install_requires=[
             'numpy',
             'nltk',
-            'newspaper',
+            'newspaper3',
             'jellyfish',
             'pycountry'
       ],

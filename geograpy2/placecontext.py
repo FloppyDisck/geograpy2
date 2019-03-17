@@ -74,7 +74,7 @@ class PlaceContext(object):
         try:
             pycountry.countries.get(name=s)
             return True
-        except KeyError, e:
+        except KeyError as e:
             return False
 
     
@@ -170,7 +170,7 @@ class PlaceContext(object):
             try:
                 country = pycountry.countries.get(alpha2=row[3])
                 country_name = country.name
-            except KeyError, e:
+            except KeyError as e:
                 country_name = row[4]
 
             city_name = row[7]

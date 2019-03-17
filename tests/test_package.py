@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import unittest
+import sys
+import os.path as path 
+sys.path.insert(0, path.abspath(path.join(__file__ ,"../..")))
 import geograpy2
 
 class TestExtractor(unittest.TestCase):

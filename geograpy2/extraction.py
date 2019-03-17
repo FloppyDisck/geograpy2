@@ -1,6 +1,6 @@
 import nltk
 from newspaper import Article
-from nltk.tag.stanford import POSTagger
+from nltk.tag.stanford import StanfordPOSTagger
 
 class Extractor(object):
     """Extracts possible place names from text.
