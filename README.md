@@ -15,7 +15,7 @@ geograpy3 uses [NLTK](http://www.nltk.org/) for entity recognition, so you'll al
 to download the models we're using. Fortunately there's a command that'll take 
 care of this for you. 
 
-    geograpy-nltk
+    geograpy3-nltk
 
 ## Basic Usage
 
@@ -28,9 +28,7 @@ Import the module, give some text or a URL, and presto.
 
 ## Credits
 
-geograpy3 is a fork of [geograpy](https://github.com/ushahidi/geograpy) and inherits
-most of it, but solves several problems (such as support for utf8, places names 
-with multiple words, confusion over homonyms etc).
+geograpy3 is a fork of [geograpy2](https://github.com/Corollarium/geograpy2) which is a fork of [geograpy](https://github.com/ushahidi/geograpy) this version only has install fixes, python 3 support and is updated to work with the newer iterations of the included libraries.
 
 geograpy3 uses the following excellent libraries:
 
